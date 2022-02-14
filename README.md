@@ -41,8 +41,17 @@
 ## Generated Trees
 * Phylogenatic trees were generated using clustal phylogeny and clustal omega softwares
 1. ABC transporter permease
+![ABC transporter permease](./generated_trees/ABC transporter permease.jpeg)
 
-![](./generated_trees/ABC transporter permease.jpeg)
+2. LysR family transcriptional regulator
+![LysR family transcriptional regulator](./generated_trees/LysR family transcriptional regulator.jpeg)
+
+3. helix-turn-helix domain-containing protein
+![helix-turn-helix domain-containing protein](./generated_trees/helix-turn-helix domain-containing protein.jpeg)
+
+4. efflux transporter outer membrane subunit
+![efflux transporter outer membrane subunit](./generated_trees/efflux transporter outer membrane subunit.jpeg)
+
 
 ```+----------------+--------------------------------------------+---------+---------+
 |  Accession ID  |                Protein name                |  Start  |   End   |

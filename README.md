@@ -6,7 +6,7 @@
     * pandas
     * Bio
     * prettytable
-2.  Retrieve the genomes of all the bacterial species in common_bacteria_set. Have to download gene sequences from the Supporting_Documents\sequence_download_procedure.pdf and save downloaded seqence in Sequence folder. Name each genome sequence fasta file with the accession id by replacing it's ``"."`` with a ``"_"``.
+2. Download comman_bacterial_set : google drive link -  https://drive.google.com/drive/folders/1Vvl4c0Iz6lz_RP3NsdmVOCa6lcJcqNcm?usp=sharing
 
 3. Open folder named data_and_code_Cosmids
 4. Open command line and navigate to data_and_code_Cosmids folder

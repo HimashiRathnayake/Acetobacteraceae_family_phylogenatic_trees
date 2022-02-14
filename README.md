@@ -16,6 +16,7 @@
 
 ## Common Bacteria set
 
+```
 * NZ_CP014692.1 
 * NZ_AP018515.1 
 * NC_017121.1   
@@ -36,24 +37,26 @@
 * NZ_CP011120.1
 * NC_017150.1
 * NC_017125.1
-* NC_017100.1
+* NC_017100.1 
+```
 
 ## Generated Trees
 * Phylogenatic trees were generated using clustal phylogeny and clustal omega softwares
 1. ABC transporter permease
-![ABC transporter permease](./generated_trees/ABC transporter permease.jpeg)
+![ABC transporter permease](./generated_trees/ABC%20transporter%20permease.jpeg)
 
 2. LysR family transcriptional regulator
-![LysR family transcriptional regulator](./generated_trees/LysR family transcriptional regulator.jpeg)
+![LysR family transcriptional regulator](./generated_trees/LysR%20family%20transcriptional%20regulator.jpeg)
 
 3. helix-turn-helix domain-containing protein
-![helix-turn-helix domain-containing protein](./generated_trees/helix-turn-helix domain-containing protein.jpeg)
+![helix-turn-helix domain-containing protein](./generated_trees/helix-turn-helix%20domain-containing%20protein.jpeg)
 
 4. efflux transporter outer membrane subunit
-![efflux transporter outer membrane subunit](./generated_trees/efflux transporter outer membrane subunit.jpeg)
+![efflux transporter outer membrane subunit](./generated_trees/efflux%20transporter%20outer%20membrane%20subunit.jpeg)
 
 
-```+----------------+--------------------------------------------+---------+---------+
+```
++----------------+--------------------------------------------+---------+---------+
 |  Accession ID  |                Protein name                |  Start  |   End   |
 +----------------+--------------------------------------------+---------+---------+
 | NZ_CP014692.1  |          ABC transporter permease          |  214989 |  215756 |
@@ -141,3 +144,4 @@
 |  NC_017125.1   | efflux transporter outer membrane subunit  |  155470 |  156954 |
 |  NC_017100.1   | efflux transporter outer membrane subunit  |  155470 |  156954 |
 +----------------+--------------------------------------------+---------+---------+
+```

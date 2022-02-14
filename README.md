@@ -14,7 +14,7 @@
 
 # Output
 
-## Common Bacteria set
+## Common Bacteria set (Step 1)
 
 ```
 * NZ_CP014692.1 
@@ -40,20 +40,7 @@
 * NC_017100.1 
 ```
 
-## Generated Trees
-* Phylogenatic trees were generated using clustal phylogeny and clustal omega softwares
-1. ABC transporter permease
-![ABC transporter permease](./generated_trees/ABC%20transporter%20permease.jpeg)
-
-2. LysR family transcriptional regulator
-![LysR family transcriptional regulator](./generated_trees/LysR%20family%20transcriptional%20regulator.jpeg)
-
-3. helix-turn-helix domain-containing protein
-![helix-turn-helix domain-containing protein](./generated_trees/helix-turn-helix%20domain-containing%20protein.jpeg)
-
-4. efflux transporter outer membrane subunit
-![efflux transporter outer membrane subunit](./generated_trees/efflux%20transporter%20outer%20membrane%20subunit.jpeg)
-
+## Protein details - (Step 3)
 
 ```
 +----------------+--------------------------------------------+---------+---------+
@@ -144,4 +131,32 @@
 |  NC_017125.1   | efflux transporter outer membrane subunit  |  155470 |  156954 |
 |  NC_017100.1   | efflux transporter outer membrane subunit  |  155470 |  156954 |
 +----------------+--------------------------------------------+---------+---------+
+```
+
+## Generated Trees (Step 4)
+* Phylogenatic trees were generated using clustal phylogeny and clustal omega softwares
+1. ABC transporter permease
+![ABC transporter permease](./generated_trees/ABC%20transporter%20permease.jpeg)
+
+2. LysR family transcriptional regulator
+![LysR family transcriptional regulator](./generated_trees/LysR%20family%20transcriptional%20regulator.jpeg)
+
+3. helix-turn-helix domain-containing protein
+![helix-turn-helix domain-containing protein](./generated_trees/helix-turn-helix%20domain-containing%20protein.jpeg)
+
+4. efflux transporter outer membrane subunit
+![efflux transporter outer membrane subunit](./generated_trees/efflux%20transporter%20outer%20membrane%20subunit.jpeg)
+
+## robinson_foulds_distance
+```
++--------------------------------------------+--------------------------------------------+--------------------------+------------------------------+
+|               Tree name - 1                |               Tree name - 2                | robinson_foulds distance | max robinson_foulds distance |
++--------------------------------------------+--------------------------------------------+--------------------------+------------------------------+
+|          ABC transporter permease          |   LysR family transcriptional regulator    |            18            |              36              |
+|          ABC transporter permease          | helix-turn-helix domain-containing protein |            16            |              36              |
+|          ABC transporter permease          | efflux transporter outer membrane subunit  |            30            |              36              |
+|   LysR family transcriptional regulator    | helix-turn-helix domain-containing protein |            22            |              36              |
+|   LysR family transcriptional regulator    | efflux transporter outer membrane subunit  |            30            |              36              |
+| helix-turn-helix domain-containing protein | efflux transporter outer membrane subunit  |            28            |              36              |
++--------------------------------------------+--------------------------------------------+--------------------------+------------------------------+
 ```
